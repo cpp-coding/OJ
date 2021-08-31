@@ -14,7 +14,7 @@ int main()
         for (int j = 600; j >= 0; j--)
         {
             sum += t[j];
-            if (sum >= max(1, i * w / 100))
+            if (sum  >= max(1, i * w / 100))
             {
                 cout << j << ' ';
                 break;
